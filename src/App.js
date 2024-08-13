@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import './App.css';
 
@@ -97,7 +98,7 @@ const App = () => {
                         <p>descuentos del 50% en todos los productos seleccionados</p>
                         <div className="butons">
                             <a href="#" className="btn-1">Información</a>
-                            <a href="#" className="btn-1">Leer más</a>
+                            <a href="#" className="btn-2">Leer más</a>
                         </div>
                     </div>
                     <div className="header-img">
@@ -189,3 +190,6 @@ const App = () => {
 };
 
 export default App;
+
+
+
